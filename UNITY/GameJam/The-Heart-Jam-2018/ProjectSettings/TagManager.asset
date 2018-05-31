@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FadeTranstion
+  - Ground
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - ContainerWall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 2880908933
+    locked: 0
+  - name: Items
+    uniqueID: 2640178905
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 594798655
+    locked: 0
+  - name: middle
+    uniqueID: 178343145
+    locked: 0
+  - name: front
+    uniqueID: 1557902297
+    locked: 0

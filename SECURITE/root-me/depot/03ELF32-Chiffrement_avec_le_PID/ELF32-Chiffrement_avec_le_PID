@@ -1,0 +1,2 @@
+./ch21 & export TEST3=$(($! + 2)) ; ./ch21 $(perl -e 'print crypt($ENV{TEST3}, "\$1\$awesome")') (essayer plusieur fois et peut etre avec une valeur differente)
+cat .passwd

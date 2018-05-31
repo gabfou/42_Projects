@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FadeTranstion
+  - Ground
+  - DynamicParticle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerFoot
+  - Outline
+  - Metaball
+  - NilZone
+  - Draw
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - PowerfulGUI
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 671702401
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 255420905
+    locked: 0
+  - name: Foreground
+    uniqueID: 298463085
+    locked: 0
+  - name: GUI
+    uniqueID: 597996613
+    locked: 0

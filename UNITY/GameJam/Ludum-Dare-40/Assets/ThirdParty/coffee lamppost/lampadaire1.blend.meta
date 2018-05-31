@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 32b79cb8d8a744ed18e862dacfc5e3e3
+timeCreated: 1512294618
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cilindro
+    100002: CYLINDER01
+    100004: Cylinder01
+    100006: CYLINDER02
+    100008: CYLINDER03
+    100010: CYLINDER04
+    100012: CYLINDER05
+    100014: CYLINDER06
+    100016: CYLINDER07
+    100018: //RootNode
+    100020: Line01
+    100022: Line02
+    100024: logo_solo
+    100026: RECTANGL01
+    100028: RECTANGL02
+    100030: RECTANGL03
+    100032: RECTANGL04
+    100034: RECTANGL05
+    100036: RECTANGL06
+    100038: RECTANGL07
+    100040: tapa
+    100042: TooBig0
+    100044: TooBig1
+    100046: TUBE01
+    100048: TUBE02
+    400000: Cilindro
+    400002: CYLINDER01
+    400004: Cylinder01
+    400006: CYLINDER02
+    400008: CYLINDER03
+    400010: CYLINDER04
+    400012: CYLINDER05
+    400014: CYLINDER06
+    400016: CYLINDER07
+    400018: //RootNode
+    400020: Line01
+    400022: Line02
+    400024: logo_solo
+    400026: RECTANGL01
+    400028: RECTANGL02
+    400030: RECTANGL03
+    400032: RECTANGL04
+    400034: RECTANGL05
+    400036: RECTANGL06
+    400038: RECTANGL07
+    400040: tapa
+    400042: TooBig0
+    400044: TooBig1
+    400046: TUBE01
+    400048: TUBE02
+    2300000: Cilindro
+    2300002: CYLINDER01
+    2300004: Cylinder01
+    2300006: CYLINDER02
+    2300008: CYLINDER03
+    2300010: CYLINDER04
+    2300012: CYLINDER05
+    2300014: CYLINDER06
+    2300016: CYLINDER07
+    2300018: Line01
+    2300020: Line02
+    2300022: logo_solo
+    2300024: RECTANGL01
+    2300026: RECTANGL02
+    2300028: RECTANGL03
+    2300030: RECTANGL04
+    2300032: RECTANGL05
+    2300034: RECTANGL06
+    2300036: RECTANGL07
+    2300038: tapa
+    2300040: TooBig0
+    2300042: TooBig1
+    2300044: TUBE01
+    2300046: TUBE02
+    3300000: Cilindro
+    3300002: CYLINDER01
+    3300004: Cylinder01
+    3300006: CYLINDER02
+    3300008: CYLINDER03
+    3300010: CYLINDER04
+    3300012: CYLINDER05
+    3300014: CYLINDER06
+    3300016: CYLINDER07
+    3300018: Line01
+    3300020: Line02
+    3300022: logo_solo
+    3300024: RECTANGL01
+    3300026: RECTANGL02
+    3300028: RECTANGL03
+    3300030: RECTANGL04
+    3300032: RECTANGL05
+    3300034: RECTANGL06
+    3300036: RECTANGL07
+    3300038: tapa
+    3300040: TooBig0
+    3300042: TooBig1
+    3300044: TUBE01
+    3300046: TUBE02
+    4300000: Line02
+    4300002: Cylinder01
+    4300004: Line01
+    4300006: CYLINDER07
+    4300008: RECTANGL07
+    4300010: RECTANGL06
+    4300012: RECTANGL05
+    4300014: RECTANGL04
+    4300016: RECTANGL03
+    4300018: RECTANGL02
+    4300020: CYLINDER06
+    4300022: CYLINDER05
+    4300024: CYLINDER04
+    4300026: CYLINDER03
+    4300028: CYLINDER02
+    4300030: CYLINDER01
+    4300032: TUBE02
+    4300034: TUBE01
+    4300036: RECTANGL01
+    4300038: logo_solo
+    4300040: tapa
+    4300042: Cilindro
+    4300044: TooBig1
+    4300046: TooBig0
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Dark__P
+    second: {fileID: 2100000, guid: 1b8529dff30c44884bc488c26a07962a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: den-f-002-1
+    second: {fileID: 2100000, guid: 8950f95282e1f4f058325c74f4a588f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: den-f-002-2
+    second: {fileID: 2100000, guid: 96e2988e41c934702b779789bf132f06, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

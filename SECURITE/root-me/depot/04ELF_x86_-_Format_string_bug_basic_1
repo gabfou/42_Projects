@@ -1,0 +1,3 @@
+./ch5  `python -c 'print "%08x" * 100;'` | hexdump -r -p
+
+(recuperer ce qui est pqs moche inverser par 4 et voila)

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: coffeMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters:
+  - guid: 3d0bf23eaf3bd44bb85ae62d2978c56b
+    name: coffee
+  m_AudioMixerGroupViews:
+  - guids:
+    - c130b04dc6eee4a24ad45f242e17f8b7
+    - 134a7fe778ee7440e84be07093a9c7e8
+    - 95d10f2c506904646950d06f333afd8b
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: c130b04dc6eee4a24ad45f242e17f8b7
+  m_Children:
+  - {fileID: 243372534631121656}
+  - {fileID: 243152459309217220}
+  m_Volume: e25930fa1d74c4375a8ec91dd8c80ff8
+  m_Pitch: 2d5d700cb1d5f49478c2cc9f4836721b
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6d1df88262ff644848bd50be1957577e
+  m_EffectName: Attenuation
+  m_MixLevel: e9c114e2d3b8a45c6a78f6b47072e7fb
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 4b1e78e9ce8ea4c008135de516b9221e
+  m_FloatValues:
+    14bb8eec4a3844bec8505ff3fa2ab275: 0.025578512
+    3d0bf23eaf3bd44bb85ae62d2978c56b: -0.002441872
+  m_TransitionOverrides: {}
+--- !u!243 &243152459309217220
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: coffe
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 95d10f2c506904646950d06f333afd8b
+  m_Children: []
+  m_Volume: 3d0bf23eaf3bd44bb85ae62d2978c56b
+  m_Pitch: ed5135273719f46bf9d6b17481c3b115
+  m_Effects:
+  - {fileID: 244667367245334688}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243372534631121656
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: coffeeless
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 134a7fe778ee7440e84be07093a9c7e8
+  m_Children: []
+  m_Volume: 14bb8eec4a3844bec8505ff3fa2ab275
+  m_Pitch: 639c488d02bd54d8d910b45ba5fded54
+  m_Effects:
+  - {fileID: 244296251053605682}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244296251053605682
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 949ac1f8a664b4126a5e80661424cace
+  m_EffectName: Attenuation
+  m_MixLevel: 28f277d5ad39f441cab35f18420124c8
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244667367245334688
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6a6e0021b98fb4ebcb701a5911701c1e
+  m_EffectName: Attenuation
+  m_MixLevel: 5df5ac5669b854f169995492b2e1f1b6
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

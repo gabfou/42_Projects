@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1088516819638026}
+  m_IsPrefabParent: 1
+--- !u!1 &1088516819638026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4182051028541728}
+  - component: {fileID: 33005880084452626}
+  - component: {fileID: 23044916701600076}
+  - component: {fileID: 114186355012430974}
+  - component: {fileID: 136054692374257112}
+  m_Layer: 9
+  m_Name: Shield3Prefab
+  m_TagString: equipement
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182051028541728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088516819638026}
+  m_LocalRotation: {x: 0.71418333, y: 0.6273934, z: -0.23746645, w: -0.19982347}
+  m_LocalPosition: {x: -0.000713, y: 0.001644, z: 0.000368}
+  m_LocalScale: {x: 0.004565138, y: 0.004565135, z: 0.0045651332}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.71900004, y: 216.155, z: 97.63801}
+--- !u!23 &23044916701600076
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088516819638026}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9df21bfc72758b84c95abbde67bb4ea0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33005880084452626
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088516819638026}
+  m_Mesh: {fileID: 4300000, guid: f427fed7a8b71e7459c0e0d9eea0d920, type: 3}
+--- !u!114 &114186355012430974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088516819638026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6c68206150642dc8c6f64bd5cb4290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  STR: 1
+  AGI: 1
+  CON: 1
+  INT: 1
+  AMR: 1
+  SPD: 1
+  Type: Shield
+  level: 0
+  Rarity: 
+  idweapon: 0
+  sprite: {fileID: 21300000, guid: 60bd7ba6dfaab4f7b863a833653fc9b3, type: 3}
+--- !u!136 &136054692374257112
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088516819638026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: -0.0000001192093, y: -0.00000004470348, z: -1.0214052e-14}

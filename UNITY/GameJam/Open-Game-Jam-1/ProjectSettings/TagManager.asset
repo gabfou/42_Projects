@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Through
+  - Fly
+  - mechant
+  - ouch
+  - bam
+  - Slime
+  - Ice
+  - OS
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - perso
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 226198593
+    locked: 0
+  - name: MidGround
+    uniqueID: 727900405
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GUI
+    uniqueID: 3985309509
+    locked: 0

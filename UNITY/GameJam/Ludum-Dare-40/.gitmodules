@@ -1,0 +1,3 @@
+[submodule "Assets/ThirdParty/JamKit"]
+	path = Assets/ThirdParty/JamKit
+	url = https://github.com/alelievr/JamKit

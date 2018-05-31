@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: df3bf3eee5fd2437b80383b4bbe7016c
+timeCreated: 1512409014
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DeformTexture: {fileID: 2800000, guid: ca03125eedefcea41ae3d8ec84727974, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
